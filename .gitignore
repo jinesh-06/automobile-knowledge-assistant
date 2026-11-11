@@ -1,0 +1,33 @@
+
+# Environment variables and secrets
+.env
+.env.*
+**/.env
+!.env.example
+
+# Python virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# ChromaDB generated database
+data/chroma_db/
+
+# Backup files
+backup_stage1/
+
+# IDE files
+.vscode/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+.backup_stage1/
